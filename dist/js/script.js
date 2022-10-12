@@ -19,3 +19,22 @@ hamburger.addEventListener('click', function() {
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 });
+
+
+// //Soal Pertama
+
+// let tampung_ganjil = [];
+// let tampung_genap = [];
+
+// for(let i=0; i<=100; i++){
+//     if(i%2==0){
+//         tampung_genap = [...tampung_genap, i]; 
+//     }else {
+//         tampung_ganjil = [...tampung_ganjil, i];
+//     }
+// }
+
+// console.log(tampung_genap, tampung_ganjil);
+
+
+

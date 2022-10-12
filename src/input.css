@@ -9,6 +9,20 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.btnScrollTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background: #0ea5e9;
+    box-shadow: 0 0 10px rgba(31, 12, 12, 0.25);
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
 .navbar-fixed{
     @apply fixed z-[9999] bg-white bg-opacity-70;
     backdrop-filter: blur(5px);

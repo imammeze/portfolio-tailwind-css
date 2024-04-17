@@ -401,6 +401,7 @@ embed,
 object {
   display: block;
   /* 1 */
+  vertical-align: middle;
   /* 2 */
 }
 
@@ -681,8 +682,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.25rem;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-32 {
   height: 8rem;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[250\] {
+  height: 250;
 }
 
 .w-14 {
